@@ -1,0 +1,9 @@
+C:\Users\khisyametdinovvt\source\repos\TodoApi\TodoEntities\bin\Release\netcoreapp2.2\TodoEntities.deps.json
+C:\Users\khisyametdinovvt\source\repos\TodoApi\TodoEntities\bin\Release\netcoreapp2.2\TodoEntities.dll
+C:\Users\khisyametdinovvt\source\repos\TodoApi\TodoEntities\bin\Release\netcoreapp2.2\TodoEntities.pdb
+C:\Users\khisyametdinovvt\source\repos\TodoApi\TodoEntities\obj\Release\netcoreapp2.2\TodoEntities.csprojAssemblyReference.cache
+C:\Users\khisyametdinovvt\source\repos\TodoApi\TodoEntities\obj\Release\netcoreapp2.2\TodoEntities.csproj.CoreCompileInputs.cache
+C:\Users\khisyametdinovvt\source\repos\TodoApi\TodoEntities\obj\Release\netcoreapp2.2\TodoEntities.AssemblyInfoInputs.cache
+C:\Users\khisyametdinovvt\source\repos\TodoApi\TodoEntities\obj\Release\netcoreapp2.2\TodoEntities.AssemblyInfo.cs
+C:\Users\khisyametdinovvt\source\repos\TodoApi\TodoEntities\obj\Release\netcoreapp2.2\TodoEntities.dll
+C:\Users\khisyametdinovvt\source\repos\TodoApi\TodoEntities\obj\Release\netcoreapp2.2\TodoEntities.pdb

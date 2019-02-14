@@ -1,0 +1,50 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+@if (@Model.HasMessage)
+{
+<div class="alert alert-success" role="alert">
+    @Model.Message
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+}
+
+<table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+    <tr>
+        <th style="width: 150px" >Задача</th>
+        <th style="width: 150px">Готова</th>
+        <th style="width: 150px">Создана</th>
+    </tr>
+    @foreach (var item in Model.Items)
+    {
+        <tr>
+            <td>
+                <a asp-page="Edit" asp-route-id="@item.Id">@item.Name</a>
+            </td>
+            <td>
+                @Html.DisplayFor(m=> item.IsComplete)
+            </td>
+            <td>
+                @Html.DisplayFor(m => item.Created)
+            </td>
+            <td>
+                <form asp-page-handler="Delete" method="post" asp-route-id="@item.Id">
+                    <button type="submit" class="btn btn-light btn-sm">Delete</button>
+                </form>
+            </td>
+        </tr>
+    }
+</table>
+<form asp-page-handler="Add" method="post" asp-route-add="Add">
+    <div class="mdl-textfield mdl-js-textfield">
+        <input asp-for="Item.Name" placeholder="Новая задача..." class="mdl-textfield__input" />
+    </div>
+    <button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">Добавить</button>
+</form>
+
+
