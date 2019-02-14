@@ -15,7 +15,7 @@ namespace TodoApi.Pages
         {
             this.context = context;
         }
-        
+
         [BindProperty]
         public TodoItem Item { get; set; }
 
@@ -26,7 +26,7 @@ namespace TodoApi.Pages
         {
             Item = await context.TodoItems.FindAsync(id);
         }
-        
+
         public async Task<IActionResult> OnPostAsync()
         {
             var item = context.TodoItems.Attach(Item);
