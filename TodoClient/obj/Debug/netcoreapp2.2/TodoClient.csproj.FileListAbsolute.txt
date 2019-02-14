@@ -1,0 +1,12 @@
+C:\Users\khisyametdinovvt\source\repos\TodoApi\TodoClient\bin\Debug\netcoreapp2.2\TodoClient.deps.json
+C:\Users\khisyametdinovvt\source\repos\TodoApi\TodoClient\bin\Debug\netcoreapp2.2\TodoClient.dll
+C:\Users\khisyametdinovvt\source\repos\TodoApi\TodoClient\bin\Debug\netcoreapp2.2\TodoClient.pdb
+C:\Users\khisyametdinovvt\source\repos\TodoApi\TodoClient\bin\Debug\netcoreapp2.2\TodoEntities.dll
+C:\Users\khisyametdinovvt\source\repos\TodoApi\TodoClient\bin\Debug\netcoreapp2.2\TodoEntities.pdb
+C:\Users\khisyametdinovvt\source\repos\TodoApi\TodoClient\obj\Debug\netcoreapp2.2\TodoClient.csprojAssemblyReference.cache
+C:\Users\khisyametdinovvt\source\repos\TodoApi\TodoClient\obj\Debug\netcoreapp2.2\TodoClient.csproj.CoreCompileInputs.cache
+C:\Users\khisyametdinovvt\source\repos\TodoApi\TodoClient\obj\Debug\netcoreapp2.2\TodoClient.AssemblyInfoInputs.cache
+C:\Users\khisyametdinovvt\source\repos\TodoApi\TodoClient\obj\Debug\netcoreapp2.2\TodoClient.AssemblyInfo.cs
+C:\Users\khisyametdinovvt\source\repos\TodoApi\TodoClient\obj\Debug\netcoreapp2.2\TodoClient.csproj.CopyComplete
+C:\Users\khisyametdinovvt\source\repos\TodoApi\TodoClient\obj\Debug\netcoreapp2.2\TodoClient.dll
+C:\Users\khisyametdinovvt\source\repos\TodoApi\TodoClient\obj\Debug\netcoreapp2.2\TodoClient.pdb

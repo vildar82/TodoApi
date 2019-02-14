@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TodoApi</name>
+    </assembly>
+    <members>
+        <member name="T:TodoApi.Controllers.TodoController">
+            <summary>
+            Todo Controller
+            </summary>
+        </member>
+        <member name="M:TodoApi.Controllers.TodoController.Get">
+            <summary>
+            Get all todoItems
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TodoApi.Controllers.TodoController.Get(System.Int64)">
+            <summary>
+            Get item by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TodoApi.Controllers.TodoController.Post(TodoEntities.TodoItem)">
+            <summary>
+            Add new item
+            </summary>
+            <param name="todoItem"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TodoApi.Controllers.TodoController.Put(System.Int64,TodoEntities.TodoItem)">
+            <summary>
+            Update item
+            </summary>
+            <param name="id"></param>
+            <param name="todoItem"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TodoApi.Controllers.TodoController.Delete(System.Int64)">
+            <summary>
+            Delete item 
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,17 @@
+﻿@page "{id:long}"
+@model EditModel
+@{
+    ViewData["Title"] = "Изменение задачи";
+}
+
+<form method="post">
+    <input asp-for="Item.Id" type="hidden" />
+    <input asp-for="Item.Created" type="hidden" />
+    <div class="form-group">        
+        <input asp-for="Item.Name" class="form-control" placeholder="Описание задачи..."/>
+    </div>
+    <div class="form-group">        
+        <input asp-for="Item.IsComplete" />
+    </div>
+    <button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Изменить</button>    
+</form>

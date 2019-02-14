@@ -1,0 +1,67 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\khisyametdinovvt\\source\\repos\\TodoApi\\TodoApi\\TodoApi.csproj",
+    "projectName": "TodoApi",
+    "projectPath": "C:\\Users\\khisyametdinovvt\\source\\repos\\TodoApi\\TodoApi\\TodoApi.csproj",
+    "outputPath": "C:\\Users\\khisyametdinovvt\\source\\repos\\TodoApi\\TodoApi\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {
+          "C:\\Users\\khisyametdinovvt\\source\\repos\\TodoApi\\TodoEntities\\TodoEntities.csproj": {
+            "projectPath": "C:\\Users\\khisyametdinovvt\\source\\repos\\TodoApi\\TodoEntities\\TodoEntities.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "Microsoft.AspNetCore.All": {
+          "target": "Package",
+          "version": "[2.2.1, )"
+        },
+        "Microsoft.AspNetCore.Mvc.Api.Analyzers": {
+          "target": "Package",
+          "version": "[2.2.0, )"
+        },
+        "Microsoft.AspNetCore.Razor.Design": {
+          "target": "Package",
+          "version": "[2.2.0, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        },
+        "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+          "target": "Package",
+          "version": "[2.2.1, )"
+        },
+        "Swashbuckle.AspNetCore": {
+          "target": "Package",
+          "version": "[4.0.1, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

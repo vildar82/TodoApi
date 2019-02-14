@@ -1,0 +1,50 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\khisyametdinovvt\\source\\repos\\TodoApi\\ConsoleApp1\\ConsoleApp1.csproj",
+    "projectName": "ConsoleApp1",
+    "projectPath": "C:\\Users\\khisyametdinovvt\\source\\repos\\TodoApi\\ConsoleApp1\\ConsoleApp1.csproj",
+    "outputPath": "C:\\Users\\khisyametdinovvt\\source\\repos\\TodoApi\\ConsoleApp1\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {
+          "C:\\Users\\khisyametdinovvt\\source\\repos\\TodoApi\\TodoClient\\TodoClient.csproj": {
+            "projectPath": "C:\\Users\\khisyametdinovvt\\source\\repos\\TodoApi\\TodoClient\\TodoClient.csproj"
+          },
+          "C:\\Users\\khisyametdinovvt\\source\\repos\\TodoApi\\TodoEntities\\TodoEntities.csproj": {
+            "projectPath": "C:\\Users\\khisyametdinovvt\\source\\repos\\TodoApi\\TodoEntities\\TodoEntities.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
